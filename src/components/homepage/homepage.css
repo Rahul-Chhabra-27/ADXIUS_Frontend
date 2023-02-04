@@ -1,0 +1,88 @@
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.buttons,.sort-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #680c15;
+}
+
+table {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top:2% ;
+    width: 70%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th, tfoot td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: white;
+    color: white;
+    padding: 20px;
+    animation: background-color 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+  @keyframes background-color {
+    0% {
+      color: rgb(167, 164, 178);
+    }
+    50% {
+      color: rgb(12, 12, 12);
+    }
+    100% {
+      color: rgb(167, 164, 178);
+    }
+  }
+
+  select {
+    margin-left: 10px;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+
