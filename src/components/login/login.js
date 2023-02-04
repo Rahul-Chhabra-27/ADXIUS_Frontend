@@ -25,7 +25,7 @@ const Login =({setLoginUser})=>{
 
     function login() {
     axios
-        .post("http://localhost:9002/login", user)
+        .post("https://page-api.onrender.com/login", user)
         .then(function(res) {
             alert(res.data.message)
             setLoginUser(res.data.user)

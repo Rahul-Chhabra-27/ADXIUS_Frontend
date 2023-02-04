@@ -29,10 +29,10 @@ const Signup =()=>{
         if (fname && lname && email && password) {
             // alert("hogya")
           axios
-            .post("http://localhost:9002/register", user)
+            .post("https://page-api.onrender.com/register", user)
             .then((res) => {
               alert(res.data.message);
-              navigate('/login');
+              navigate("/login");
               // history.push("/login");
             });
         } else {
